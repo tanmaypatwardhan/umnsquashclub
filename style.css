@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    
+    justify-content: space-between;
+    border: 6px solid black;
+    background: black;
+    padding: 16px;
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+a {
+    font-family: "Helvetica Neue", sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffcc33;
+    
+}
+
+a:hover {
+    color: #900021
+}
+
+
+.logo {
+    width: 10%;
+    height: 10%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
